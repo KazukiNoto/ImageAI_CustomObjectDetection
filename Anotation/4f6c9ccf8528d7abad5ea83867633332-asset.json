@@ -1,0 +1,73 @@
+{
+    "asset": {
+        "id": "4f6c9ccf8528d7abad5ea83867633332",
+        "format": "533333",
+        "state": 2,
+        "type": 3,
+        "name": "ItemMov1.mp4#t=0.533333",
+        "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4#t=0.533333",
+        "size": {
+            "width": 1920,
+            "height": 1080
+        },
+        "parent": {
+            "format": "mp4",
+            "id": "5c6a69a29093b7d29b1bafafd12e4249",
+            "name": "ItemMov1.mp4",
+            "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 1,
+            "type": 2
+        },
+        "timestamp": 0.533333
+    },
+    "regions": [
+        {
+            "id": "7fthCrtCx",
+            "type": "POLYGON",
+            "tags": [
+                "ハイレモン"
+            ],
+            "boundingBox": {
+                "height": 155.82178655660377,
+                "width": 96.05973451327434,
+                "left": 775.7057522123894,
+                "top": 711.9604952830189
+            },
+            "points": [
+                {
+                    "x": 775.7057522123894,
+                    "y": 730.6795400943397
+                },
+                {
+                    "x": 784.3008849557522,
+                    "y": 822.6098172169811
+                },
+                {
+                    "x": 847.1681415929204,
+                    "y": 867.7822818396227
+                },
+                {
+                    "x": 871.7654867256637,
+                    "y": 862.389445754717
+                },
+                {
+                    "x": 869.966814159292,
+                    "y": 748.6490271226415
+                },
+                {
+                    "x": 804.0066371681415,
+                    "y": 711.9604952830189
+                },
+                {
+                    "x": 778.2345132743362,
+                    "y": 729.167158018868
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

@@ -1,0 +1,1682 @@
+{
+    "name": "ImageAI_CustomObjectDetection",
+    "securityToken": "ImageAI_CustomObjectDetection Token",
+    "sourceConnection": {
+        "name": "ImageAI_CustomObjectDetection",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiMWIxNjY3MDZlODljOGJmYWZjMGZhYTEwOWIzMWJlNGFhMmQ2NzQ1NTk1ZWYwYzc5NmZhYWRkMGVlY2NiNjA0YTUwZjkyMjlmZTY5OGYzM2JhNjVjNDhlOTc3OWZkMjE0ZDc4NDRmMjljNTA0ZTI1NGQxMmFiYmI5NDczYTY4ZTcwZTk2OWVkYmUzODExNTFmZjkxYTkyZWU3M2M3YTY2NDcxNjkzZmYwN2ViZWRhZjAwMWIyNWZkZDdiYmNkZTNjIiwiaXYiOiJjODIxMzRiMTQ5OTE3NDhkNTdiYTI3YWRhZjg2NjAyZGE2ZTI1ZDQ2M2NmN2U4NzAifQ=="
+        },
+        "id": "q33vVSEqe"
+    },
+    "targetConnection": {
+        "name": "ImageAI_CustomObjectDetection",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiZTA3ZmZjMDdhZDY5ZTIxZGEzZWU0Y2QyYTNjZTdmYmRlNzc5OTkyYTQ2MTZiNmEwNjdlMzRjYmE0Y2IzZWEwMmVlYWZiYmQ5ZDY1OTUxMDBkNDY0ODE5Yjc2YmM2NmZiNTg1MDU4YjMzNzRmYmM5OGMzMzg2MTlkYWM4OTc2ZmViMmRkZGMxYmViODg5ZjJmNTNhOTZmNzIyYzI5Njg4NDg3MDA5NWZjZDJjY2E5MTAzYTI2YTFhOTg5ZWIwYjBlIiwiaXYiOiI1NTNmOTJlZDMwNTgzMmIxY2MzYjdlY2Y0ODIwNjdlNTQ0MDc0YWJmOWQ1ZmI2ZjMifQ=="
+        },
+        "id": "q33vVSEqe"
+    },
+    "videoSettings": {
+        "frameExtractionRate": 15
+    },
+    "tags": [
+        {
+            "name": "ハイレモン",
+            "color": "#5db300"
+        }
+    ],
+    "id": "GjdgbY-ul",
+    "activeLearningSettings": {
+        "autoDetect": false,
+        "predictTag": true,
+        "modelPathType": "coco"
+    },
+    "exportFormat": {
+        "providerType": "vottJson",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiZTBkN2ZlZTliNjZiYTRlNjY1NzBkNGVlYzlmMmI3NTczMGU3MTE4NTA3MmNkMWY4M2Y3M2IyMmRkODhiOTQ5MjQyYjJhNGRlOWFmNWEwZjM5NTQ0MjE0NTE4NWIyYTJhIiwiaXYiOiJhZTQ0YTE0OTU3Yzk5NDI5NDMwNzU0Yjc1ZGRkM2QxMGI4Y2VlOTE3YmY4YjFmNTgifQ=="
+        }
+    },
+    "version": "2.2.0",
+    "lastVisitedAssetId": "5c6a69a29093b7d29b1bafafd12e4249",
+    "assets": {
+        "5c6a69a29093b7d29b1bafafd12e4249": {
+            "format": "mp4",
+            "id": "5c6a69a29093b7d29b1bafafd12e4249",
+            "name": "ItemMov1.mp4",
+            "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 2
+        },
+        "036aaacd42497f671dac2a936da90af8": {
+            "id": "036aaacd42497f671dac2a936da90af8",
+            "format": "8",
+            "state": 2,
+            "type": 3,
+            "name": "ItemMov1.mp4#t=0.8",
+            "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4#t=0.8",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "5c6a69a29093b7d29b1bafafd12e4249",
+                "name": "ItemMov1.mp4",
+                "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 0.8
+        },
+        "9e180d48985f5a022b68a13a434b9517": {
+            "id": "9e180d48985f5a022b68a13a434b9517",
+            "format": "mp4",
+            "state": 1,
+            "type": 3,
+            "name": "ItemMov1.mp4#t=0",
+            "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4#t=0",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "5c6a69a29093b7d29b1bafafd12e4249",
+                "name": "ItemMov1.mp4",
+                "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 0
+        },
+        "5de99b5082d7ca3bd6348be33aa3d8d8": {
+            "id": "5de99b5082d7ca3bd6348be33aa3d8d8",
+            "format": "266667",
+            "state": 1,
+            "type": 3,
+            "name": "ItemMov1.mp4#t=4.266667",
+            "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4#t=4.266667",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "5c6a69a29093b7d29b1bafafd12e4249",
+                "name": "ItemMov1.mp4",
+                "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 4.266667
+        },
+        "a7d8f3d423e6bc6cc80ab130fac7ad1d": {
+            "id": "a7d8f3d423e6bc6cc80ab130fac7ad1d",
+            "format": "333333",
+            "state": 1,
+            "type": 3,
+            "name": "ItemMov1.mp4#t=4.333333",
+            "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4#t=4.333333",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "5c6a69a29093b7d29b1bafafd12e4249",
+                "name": "ItemMov1.mp4",
+                "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 4.333333
+        },
+        "05cf9a0488aeb832623df7f25779489a": {
+            "id": "05cf9a0488aeb832623df7f25779489a",
+            "format": "266667",
+            "state": 1,
+            "type": 3,
+            "name": "ItemMov1.mp4#t=0.266667",
+            "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4#t=0.266667",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "5c6a69a29093b7d29b1bafafd12e4249",
+                "name": "ItemMov1.mp4",
+                "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 0.266667
+        },
+        "b4f4b753ac754b8b2b703e163515a25c": {
+            "id": "b4f4b753ac754b8b2b703e163515a25c",
+            "format": "466667",
+            "state": 2,
+            "type": 3,
+            "name": "ItemMov1.mp4#t=0.466667",
+            "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4#t=0.466667",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "5c6a69a29093b7d29b1bafafd12e4249",
+                "name": "ItemMov1.mp4",
+                "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 0.466667
+        },
+        "e8375a0b26acd19a179a2384f716fecb": {
+            "id": "e8375a0b26acd19a179a2384f716fecb",
+            "format": "066667",
+            "state": 1,
+            "type": 3,
+            "name": "ItemMov1.mp4#t=0.066667",
+            "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4#t=0.066667",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "5c6a69a29093b7d29b1bafafd12e4249",
+                "name": "ItemMov1.mp4",
+                "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 0.066667
+        },
+        "aec4d953a03173b20191f8b33f86990f": {
+            "id": "aec4d953a03173b20191f8b33f86990f",
+            "format": "133333",
+            "state": 1,
+            "type": 3,
+            "name": "ItemMov1.mp4#t=0.133333",
+            "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4#t=0.133333",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "5c6a69a29093b7d29b1bafafd12e4249",
+                "name": "ItemMov1.mp4",
+                "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 0.133333
+        },
+        "7f8f83f58f3715adfcb97d712ae8af30": {
+            "id": "7f8f83f58f3715adfcb97d712ae8af30",
+            "format": "2",
+            "state": 1,
+            "type": 3,
+            "name": "ItemMov1.mp4#t=0.2",
+            "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4#t=0.2",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "5c6a69a29093b7d29b1bafafd12e4249",
+                "name": "ItemMov1.mp4",
+                "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 0.2
+        },
+        "c8b81f162ab7de7f53d18b25af3fe9d3": {
+            "id": "c8b81f162ab7de7f53d18b25af3fe9d3",
+            "format": "333333",
+            "state": 1,
+            "type": 3,
+            "name": "ItemMov1.mp4#t=0.333333",
+            "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4#t=0.333333",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "5c6a69a29093b7d29b1bafafd12e4249",
+                "name": "ItemMov1.mp4",
+                "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 0.333333
+        },
+        "c3c8e6c44a9c3db369d74b6bce36ab82": {
+            "id": "c3c8e6c44a9c3db369d74b6bce36ab82",
+            "format": "4",
+            "state": 1,
+            "type": 3,
+            "name": "ItemMov1.mp4#t=0.4",
+            "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4#t=0.4",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "5c6a69a29093b7d29b1bafafd12e4249",
+                "name": "ItemMov1.mp4",
+                "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 0.4
+        },
+        "4f6c9ccf8528d7abad5ea83867633332": {
+            "id": "4f6c9ccf8528d7abad5ea83867633332",
+            "format": "533333",
+            "state": 2,
+            "type": 3,
+            "name": "ItemMov1.mp4#t=0.533333",
+            "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4#t=0.533333",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "5c6a69a29093b7d29b1bafafd12e4249",
+                "name": "ItemMov1.mp4",
+                "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 0.533333
+        },
+        "a6eccdbb0fcb4742e4bfe68b8d4b8372": {
+            "id": "a6eccdbb0fcb4742e4bfe68b8d4b8372",
+            "format": "6",
+            "state": 2,
+            "type": 3,
+            "name": "ItemMov1.mp4#t=0.6",
+            "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4#t=0.6",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "5c6a69a29093b7d29b1bafafd12e4249",
+                "name": "ItemMov1.mp4",
+                "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 0.6
+        },
+        "7a8609b0478bbb9efc9e9d189285056b": {
+            "id": "7a8609b0478bbb9efc9e9d189285056b",
+            "format": "666667",
+            "state": 2,
+            "type": 3,
+            "name": "ItemMov1.mp4#t=0.666667",
+            "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4#t=0.666667",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "5c6a69a29093b7d29b1bafafd12e4249",
+                "name": "ItemMov1.mp4",
+                "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 0.666667
+        },
+        "302046d054f1971528999ba178fef8e0": {
+            "id": "302046d054f1971528999ba178fef8e0",
+            "format": "733333",
+            "state": 2,
+            "type": 3,
+            "name": "ItemMov1.mp4#t=0.733333",
+            "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4#t=0.733333",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "5c6a69a29093b7d29b1bafafd12e4249",
+                "name": "ItemMov1.mp4",
+                "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 0.733333
+        },
+        "56e07ecdfab4c90efd46c47a15ea3977": {
+            "id": "56e07ecdfab4c90efd46c47a15ea3977",
+            "format": "866667",
+            "state": 2,
+            "type": 3,
+            "name": "ItemMov1.mp4#t=0.866667",
+            "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4#t=0.866667",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "5c6a69a29093b7d29b1bafafd12e4249",
+                "name": "ItemMov1.mp4",
+                "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 0.866667
+        },
+        "db903e3e92318d1ac88458a4f5be19c6": {
+            "id": "db903e3e92318d1ac88458a4f5be19c6",
+            "format": "933333",
+            "state": 2,
+            "type": 3,
+            "name": "ItemMov1.mp4#t=0.933333",
+            "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4#t=0.933333",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "5c6a69a29093b7d29b1bafafd12e4249",
+                "name": "ItemMov1.mp4",
+                "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 0.933333
+        },
+        "c1ba4f2855a68eec4a4c8edf4400ae31": {
+            "id": "c1ba4f2855a68eec4a4c8edf4400ae31",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "ItemMov1.mp4#t=1",
+            "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4#t=1",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "5c6a69a29093b7d29b1bafafd12e4249",
+                "name": "ItemMov1.mp4",
+                "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 1
+        },
+        "9581c7fd53bec645423f3d5f93141136": {
+            "id": "9581c7fd53bec645423f3d5f93141136",
+            "format": "066667",
+            "state": 2,
+            "type": 3,
+            "name": "ItemMov1.mp4#t=1.066667",
+            "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4#t=1.066667",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "5c6a69a29093b7d29b1bafafd12e4249",
+                "name": "ItemMov1.mp4",
+                "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 1.066667
+        },
+        "49151bc68b652900a30c5254bf5b328d": {
+            "id": "49151bc68b652900a30c5254bf5b328d",
+            "format": "133333",
+            "state": 2,
+            "type": 3,
+            "name": "ItemMov1.mp4#t=1.133333",
+            "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4#t=1.133333",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "5c6a69a29093b7d29b1bafafd12e4249",
+                "name": "ItemMov1.mp4",
+                "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 1.133333
+        },
+        "e99ce770d11520549e1fedff820066c9": {
+            "id": "e99ce770d11520549e1fedff820066c9",
+            "format": "2",
+            "state": 2,
+            "type": 3,
+            "name": "ItemMov1.mp4#t=1.2",
+            "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4#t=1.2",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "5c6a69a29093b7d29b1bafafd12e4249",
+                "name": "ItemMov1.mp4",
+                "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 1.2
+        },
+        "b3d04bfa7662947d5d2cd02ef9fa7128": {
+            "id": "b3d04bfa7662947d5d2cd02ef9fa7128",
+            "format": "266667",
+            "state": 2,
+            "type": 3,
+            "name": "ItemMov1.mp4#t=1.266667",
+            "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4#t=1.266667",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "5c6a69a29093b7d29b1bafafd12e4249",
+                "name": "ItemMov1.mp4",
+                "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 1.266667
+        },
+        "1289f4533bff77cc5138c6b8194b85f5": {
+            "id": "1289f4533bff77cc5138c6b8194b85f5",
+            "format": "333333",
+            "state": 2,
+            "type": 3,
+            "name": "ItemMov1.mp4#t=1.333333",
+            "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4#t=1.333333",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "5c6a69a29093b7d29b1bafafd12e4249",
+                "name": "ItemMov1.mp4",
+                "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 1.333333
+        },
+        "deb4c3d6c837e2c9823ff5c5a95d8714": {
+            "id": "deb4c3d6c837e2c9823ff5c5a95d8714",
+            "format": "4",
+            "state": 2,
+            "type": 3,
+            "name": "ItemMov1.mp4#t=1.4",
+            "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4#t=1.4",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "5c6a69a29093b7d29b1bafafd12e4249",
+                "name": "ItemMov1.mp4",
+                "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 1.4
+        },
+        "b03f4f4e759924516bf6f7a35e808144": {
+            "id": "b03f4f4e759924516bf6f7a35e808144",
+            "format": "466667",
+            "state": 2,
+            "type": 3,
+            "name": "ItemMov1.mp4#t=1.466667",
+            "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4#t=1.466667",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "5c6a69a29093b7d29b1bafafd12e4249",
+                "name": "ItemMov1.mp4",
+                "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 1.466667
+        },
+        "8c36cb8b685c62bde2a11ee671294211": {
+            "id": "8c36cb8b685c62bde2a11ee671294211",
+            "format": "533333",
+            "state": 2,
+            "type": 3,
+            "name": "ItemMov1.mp4#t=1.533333",
+            "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4#t=1.533333",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "5c6a69a29093b7d29b1bafafd12e4249",
+                "name": "ItemMov1.mp4",
+                "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 1.533333
+        },
+        "40e1e2fa55c8d604f39937d013c4a346": {
+            "id": "40e1e2fa55c8d604f39937d013c4a346",
+            "format": "6",
+            "state": 2,
+            "type": 3,
+            "name": "ItemMov1.mp4#t=1.6",
+            "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4#t=1.6",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "5c6a69a29093b7d29b1bafafd12e4249",
+                "name": "ItemMov1.mp4",
+                "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 1.6
+        },
+        "880a3cecb3ed3c1fdadc7d690c1a73c1": {
+            "id": "880a3cecb3ed3c1fdadc7d690c1a73c1",
+            "format": "666667",
+            "state": 2,
+            "type": 3,
+            "name": "ItemMov1.mp4#t=1.666667",
+            "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4#t=1.666667",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "5c6a69a29093b7d29b1bafafd12e4249",
+                "name": "ItemMov1.mp4",
+                "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 1.666667
+        },
+        "38e89ef775ad4145257f91ff47de96d1": {
+            "id": "38e89ef775ad4145257f91ff47de96d1",
+            "format": "733333",
+            "state": 2,
+            "type": 3,
+            "name": "ItemMov1.mp4#t=1.733333",
+            "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4#t=1.733333",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "5c6a69a29093b7d29b1bafafd12e4249",
+                "name": "ItemMov1.mp4",
+                "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 1.733333
+        },
+        "772a1a159a1a898391266f6d46a7920c": {
+            "id": "772a1a159a1a898391266f6d46a7920c",
+            "format": "8",
+            "state": 2,
+            "type": 3,
+            "name": "ItemMov1.mp4#t=1.8",
+            "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4#t=1.8",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "5c6a69a29093b7d29b1bafafd12e4249",
+                "name": "ItemMov1.mp4",
+                "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 1.8
+        },
+        "d3d318388ea5b8c1cd03c6aee507b6eb": {
+            "id": "d3d318388ea5b8c1cd03c6aee507b6eb",
+            "format": "866667",
+            "state": 2,
+            "type": 3,
+            "name": "ItemMov1.mp4#t=1.866667",
+            "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4#t=1.866667",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "5c6a69a29093b7d29b1bafafd12e4249",
+                "name": "ItemMov1.mp4",
+                "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 1.866667
+        },
+        "b319bfe2edb5767cd4419a9f9384de27": {
+            "id": "b319bfe2edb5767cd4419a9f9384de27",
+            "format": "933333",
+            "state": 2,
+            "type": 3,
+            "name": "ItemMov1.mp4#t=1.933333",
+            "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4#t=1.933333",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "5c6a69a29093b7d29b1bafafd12e4249",
+                "name": "ItemMov1.mp4",
+                "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 1.933333
+        },
+        "c468f5db7a4296f24ce892edb9fc1750": {
+            "id": "c468f5db7a4296f24ce892edb9fc1750",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "ItemMov1.mp4#t=2",
+            "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4#t=2",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "5c6a69a29093b7d29b1bafafd12e4249",
+                "name": "ItemMov1.mp4",
+                "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 2
+        },
+        "1bfff269db4dc8305b4e0488d45758aa": {
+            "id": "1bfff269db4dc8305b4e0488d45758aa",
+            "format": "133333",
+            "state": 2,
+            "type": 3,
+            "name": "ItemMov1.mp4#t=2.133333",
+            "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4#t=2.133333",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "5c6a69a29093b7d29b1bafafd12e4249",
+                "name": "ItemMov1.mp4",
+                "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 2.133333
+        },
+        "2b6476e2ccd80fe20818fb1b1c89bd11": {
+            "id": "2b6476e2ccd80fe20818fb1b1c89bd11",
+            "format": "2",
+            "state": 2,
+            "type": 3,
+            "name": "ItemMov1.mp4#t=2.2",
+            "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4#t=2.2",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "5c6a69a29093b7d29b1bafafd12e4249",
+                "name": "ItemMov1.mp4",
+                "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 2.2
+        },
+        "04796dc9c8a1f2dca324d25b0fed060c": {
+            "id": "04796dc9c8a1f2dca324d25b0fed060c",
+            "format": "266667",
+            "state": 2,
+            "type": 3,
+            "name": "ItemMov1.mp4#t=2.266667",
+            "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4#t=2.266667",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "5c6a69a29093b7d29b1bafafd12e4249",
+                "name": "ItemMov1.mp4",
+                "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 2.266667
+        },
+        "7544fcf1fe53ea0ab036b4b23a01402c": {
+            "id": "7544fcf1fe53ea0ab036b4b23a01402c",
+            "format": "333333",
+            "state": 2,
+            "type": 3,
+            "name": "ItemMov1.mp4#t=2.333333",
+            "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4#t=2.333333",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "5c6a69a29093b7d29b1bafafd12e4249",
+                "name": "ItemMov1.mp4",
+                "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 2.333333
+        },
+        "58a0b4058d417cc774c7b367b0dab999": {
+            "id": "58a0b4058d417cc774c7b367b0dab999",
+            "format": "4",
+            "state": 2,
+            "type": 3,
+            "name": "ItemMov1.mp4#t=2.4",
+            "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4#t=2.4",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "5c6a69a29093b7d29b1bafafd12e4249",
+                "name": "ItemMov1.mp4",
+                "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 2.4
+        },
+        "8d888d103a8860e40c827b1a657ad654": {
+            "id": "8d888d103a8860e40c827b1a657ad654",
+            "format": "466667",
+            "state": 2,
+            "type": 3,
+            "name": "ItemMov1.mp4#t=2.466667",
+            "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4#t=2.466667",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "5c6a69a29093b7d29b1bafafd12e4249",
+                "name": "ItemMov1.mp4",
+                "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 2.466667
+        },
+        "e96748f6a65892236521a0d6ace187db": {
+            "id": "e96748f6a65892236521a0d6ace187db",
+            "format": "533333",
+            "state": 2,
+            "type": 3,
+            "name": "ItemMov1.mp4#t=2.533333",
+            "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4#t=2.533333",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "5c6a69a29093b7d29b1bafafd12e4249",
+                "name": "ItemMov1.mp4",
+                "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 2.533333
+        },
+        "801374e62e580fdde80be488ec97a3fb": {
+            "id": "801374e62e580fdde80be488ec97a3fb",
+            "format": "6",
+            "state": 2,
+            "type": 3,
+            "name": "ItemMov1.mp4#t=2.6",
+            "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4#t=2.6",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "5c6a69a29093b7d29b1bafafd12e4249",
+                "name": "ItemMov1.mp4",
+                "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 2.6
+        },
+        "14350fd28596b8dee29787addcac91f1": {
+            "id": "14350fd28596b8dee29787addcac91f1",
+            "format": "666667",
+            "state": 2,
+            "type": 3,
+            "name": "ItemMov1.mp4#t=2.666667",
+            "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4#t=2.666667",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "5c6a69a29093b7d29b1bafafd12e4249",
+                "name": "ItemMov1.mp4",
+                "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 2.666667
+        },
+        "78eee4941ab616674c35366b6a6126ec": {
+            "id": "78eee4941ab616674c35366b6a6126ec",
+            "format": "733333",
+            "state": 2,
+            "type": 3,
+            "name": "ItemMov1.mp4#t=2.733333",
+            "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4#t=2.733333",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "5c6a69a29093b7d29b1bafafd12e4249",
+                "name": "ItemMov1.mp4",
+                "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 2.733333
+        },
+        "2057c13dd139a2af6c429638ae3017cb": {
+            "id": "2057c13dd139a2af6c429638ae3017cb",
+            "format": "8",
+            "state": 2,
+            "type": 3,
+            "name": "ItemMov1.mp4#t=2.8",
+            "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4#t=2.8",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "5c6a69a29093b7d29b1bafafd12e4249",
+                "name": "ItemMov1.mp4",
+                "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 2.8
+        },
+        "f4e5dea7833695f0b62fe23e54d4a29b": {
+            "id": "f4e5dea7833695f0b62fe23e54d4a29b",
+            "format": "866667",
+            "state": 1,
+            "type": 3,
+            "name": "ItemMov1.mp4#t=2.866667",
+            "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4#t=2.866667",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "5c6a69a29093b7d29b1bafafd12e4249",
+                "name": "ItemMov1.mp4",
+                "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 2.866667
+        },
+        "222abcc01042dd4fce6f62edf4a53755": {
+            "id": "222abcc01042dd4fce6f62edf4a53755",
+            "format": "933333",
+            "state": 1,
+            "type": 3,
+            "name": "ItemMov1.mp4#t=2.933333",
+            "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4#t=2.933333",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "5c6a69a29093b7d29b1bafafd12e4249",
+                "name": "ItemMov1.mp4",
+                "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 2.933333
+        },
+        "23b212c1f525be8615c4c39d5210ede6": {
+            "id": "23b212c1f525be8615c4c39d5210ede6",
+            "format": "mp4",
+            "state": 1,
+            "type": 3,
+            "name": "ItemMov1.mp4#t=3",
+            "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4#t=3",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "5c6a69a29093b7d29b1bafafd12e4249",
+                "name": "ItemMov1.mp4",
+                "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 3
+        },
+        "37105b98f62787f566e5e8a0f368dd66": {
+            "id": "37105b98f62787f566e5e8a0f368dd66",
+            "format": "066667",
+            "state": 1,
+            "type": 3,
+            "name": "ItemMov1.mp4#t=3.066667",
+            "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4#t=3.066667",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "5c6a69a29093b7d29b1bafafd12e4249",
+                "name": "ItemMov1.mp4",
+                "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 3.066667
+        },
+        "e8b8466f0130db94790e11cd48551e31": {
+            "id": "e8b8466f0130db94790e11cd48551e31",
+            "format": "133333",
+            "state": 1,
+            "type": 3,
+            "name": "ItemMov1.mp4#t=3.133333",
+            "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4#t=3.133333",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "5c6a69a29093b7d29b1bafafd12e4249",
+                "name": "ItemMov1.mp4",
+                "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 3.133333
+        },
+        "91ece549ce4d095316fe792b79321d57": {
+            "id": "91ece549ce4d095316fe792b79321d57",
+            "format": "2",
+            "state": 1,
+            "type": 3,
+            "name": "ItemMov1.mp4#t=3.2",
+            "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4#t=3.2",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "5c6a69a29093b7d29b1bafafd12e4249",
+                "name": "ItemMov1.mp4",
+                "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 3.2
+        },
+        "2d3e9549297a1cc97e632c227e7064ce": {
+            "id": "2d3e9549297a1cc97e632c227e7064ce",
+            "format": "266667",
+            "state": 1,
+            "type": 3,
+            "name": "ItemMov1.mp4#t=3.266667",
+            "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4#t=3.266667",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "5c6a69a29093b7d29b1bafafd12e4249",
+                "name": "ItemMov1.mp4",
+                "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 3.266667
+        },
+        "a099390e1e79e684f68a79fa65e19d1b": {
+            "id": "a099390e1e79e684f68a79fa65e19d1b",
+            "format": "333333",
+            "state": 1,
+            "type": 3,
+            "name": "ItemMov1.mp4#t=3.333333",
+            "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4#t=3.333333",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "5c6a69a29093b7d29b1bafafd12e4249",
+                "name": "ItemMov1.mp4",
+                "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 3.333333
+        },
+        "2cc643dd5410f5da0e110fe4b360fba5": {
+            "id": "2cc643dd5410f5da0e110fe4b360fba5",
+            "format": "4",
+            "state": 1,
+            "type": 3,
+            "name": "ItemMov1.mp4#t=3.4",
+            "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4#t=3.4",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "5c6a69a29093b7d29b1bafafd12e4249",
+                "name": "ItemMov1.mp4",
+                "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 3.4
+        },
+        "053902f6b108d4473a239ab9c3dadcec": {
+            "id": "053902f6b108d4473a239ab9c3dadcec",
+            "format": "466667",
+            "state": 1,
+            "type": 3,
+            "name": "ItemMov1.mp4#t=3.466667",
+            "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4#t=3.466667",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "5c6a69a29093b7d29b1bafafd12e4249",
+                "name": "ItemMov1.mp4",
+                "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 3.466667
+        },
+        "a4158c398b696c9a22bc88dd265e9b51": {
+            "id": "a4158c398b696c9a22bc88dd265e9b51",
+            "format": "533333",
+            "state": 1,
+            "type": 3,
+            "name": "ItemMov1.mp4#t=3.533333",
+            "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4#t=3.533333",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "5c6a69a29093b7d29b1bafafd12e4249",
+                "name": "ItemMov1.mp4",
+                "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 3.533333
+        },
+        "07b7ae6a757cdab77372f0b09d97bcb2": {
+            "id": "07b7ae6a757cdab77372f0b09d97bcb2",
+            "format": "6",
+            "state": 1,
+            "type": 3,
+            "name": "ItemMov1.mp4#t=3.6",
+            "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4#t=3.6",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "5c6a69a29093b7d29b1bafafd12e4249",
+                "name": "ItemMov1.mp4",
+                "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 3.6
+        },
+        "d667f730ff7b8d9834360ba84e179e50": {
+            "id": "d667f730ff7b8d9834360ba84e179e50",
+            "format": "666667",
+            "state": 1,
+            "type": 3,
+            "name": "ItemMov1.mp4#t=3.666667",
+            "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4#t=3.666667",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "5c6a69a29093b7d29b1bafafd12e4249",
+                "name": "ItemMov1.mp4",
+                "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 3.666667
+        },
+        "251a0d7e9521c21e055247d75c1cd79c": {
+            "id": "251a0d7e9521c21e055247d75c1cd79c",
+            "format": "733333",
+            "state": 1,
+            "type": 3,
+            "name": "ItemMov1.mp4#t=3.733333",
+            "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4#t=3.733333",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "5c6a69a29093b7d29b1bafafd12e4249",
+                "name": "ItemMov1.mp4",
+                "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 3.733333
+        },
+        "650273326213a2d615364d64b72c526b": {
+            "id": "650273326213a2d615364d64b72c526b",
+            "format": "8",
+            "state": 1,
+            "type": 3,
+            "name": "ItemMov1.mp4#t=3.8",
+            "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4#t=3.8",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "5c6a69a29093b7d29b1bafafd12e4249",
+                "name": "ItemMov1.mp4",
+                "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 3.8
+        },
+        "16d928d273d40c61d5215bea59d2f6c8": {
+            "id": "16d928d273d40c61d5215bea59d2f6c8",
+            "format": "866667",
+            "state": 1,
+            "type": 3,
+            "name": "ItemMov1.mp4#t=3.866667",
+            "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4#t=3.866667",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "5c6a69a29093b7d29b1bafafd12e4249",
+                "name": "ItemMov1.mp4",
+                "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 3.866667
+        },
+        "46f8a21f0bf6a0fec1916c74e1f9b2bf": {
+            "id": "46f8a21f0bf6a0fec1916c74e1f9b2bf",
+            "format": "933333",
+            "state": 1,
+            "type": 3,
+            "name": "ItemMov1.mp4#t=3.933333",
+            "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4#t=3.933333",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "5c6a69a29093b7d29b1bafafd12e4249",
+                "name": "ItemMov1.mp4",
+                "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 3.933333
+        },
+        "4706d10a4c6b772e7beb6c04d4ca31e1": {
+            "id": "4706d10a4c6b772e7beb6c04d4ca31e1",
+            "format": "mp4",
+            "state": 1,
+            "type": 3,
+            "name": "ItemMov1.mp4#t=4",
+            "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4#t=4",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "5c6a69a29093b7d29b1bafafd12e4249",
+                "name": "ItemMov1.mp4",
+                "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 4
+        },
+        "8cc3b8499472b7312285fcc84e15c2b9": {
+            "id": "8cc3b8499472b7312285fcc84e15c2b9",
+            "format": "066667",
+            "state": 1,
+            "type": 3,
+            "name": "ItemMov1.mp4#t=4.066667",
+            "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4#t=4.066667",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "5c6a69a29093b7d29b1bafafd12e4249",
+                "name": "ItemMov1.mp4",
+                "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 4.066667
+        },
+        "eab32398b1ce87148b30e8bba5099704": {
+            "id": "eab32398b1ce87148b30e8bba5099704",
+            "format": "133333",
+            "state": 1,
+            "type": 3,
+            "name": "ItemMov1.mp4#t=4.133333",
+            "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4#t=4.133333",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "5c6a69a29093b7d29b1bafafd12e4249",
+                "name": "ItemMov1.mp4",
+                "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 4.133333
+        },
+        "10400a3441973903bd3233abe27ebdb6": {
+            "id": "10400a3441973903bd3233abe27ebdb6",
+            "format": "2",
+            "state": 1,
+            "type": 3,
+            "name": "ItemMov1.mp4#t=4.2",
+            "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4#t=4.2",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "5c6a69a29093b7d29b1bafafd12e4249",
+                "name": "ItemMov1.mp4",
+                "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 4.2
+        }
+    }
+}

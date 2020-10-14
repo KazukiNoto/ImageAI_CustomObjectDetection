@@ -1,0 +1,61 @@
+{
+    "asset": {
+        "id": "49151bc68b652900a30c5254bf5b328d",
+        "format": "133333",
+        "state": 2,
+        "type": 3,
+        "name": "ItemMov1.mp4#t=1.133333",
+        "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4#t=1.133333",
+        "size": {
+            "width": 1920,
+            "height": 1080
+        },
+        "parent": {
+            "format": "mp4",
+            "id": "5c6a69a29093b7d29b1bafafd12e4249",
+            "name": "ItemMov1.mp4",
+            "path": "file:/Users/kazukinoto/vinxlab/ImageAI_CustomObjectDetection/Anotation/ItemMov1.mp4",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 1,
+            "type": 2
+        },
+        "timestamp": 1.133333
+    },
+    "regions": [
+        {
+            "id": "Jh0OQOZhy",
+            "type": "RECTANGLE",
+            "tags": [
+                "ハイレモン"
+            ],
+            "boundingBox": {
+                "height": 114.86143867924528,
+                "width": 91.99778761061947,
+                "left": 1134.5508849557523,
+                "top": 756.1645047169811
+            },
+            "points": [
+                {
+                    "x": 1134.5508849557523,
+                    "y": 756.1645047169811
+                },
+                {
+                    "x": 1226.5486725663716,
+                    "y": 756.1645047169811
+                },
+                {
+                    "x": 1226.5486725663716,
+                    "y": 871.0259433962265
+                },
+                {
+                    "x": 1134.5508849557523,
+                    "y": 871.0259433962265
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}
