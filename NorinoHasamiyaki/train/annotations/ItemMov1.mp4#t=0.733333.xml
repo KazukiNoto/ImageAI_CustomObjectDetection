@@ -1,0 +1,26 @@
+<annotation verified="yes">
+    <folder>Annotation</folder>
+    <filename>ItemMov1.mp4#t=0.733333.jpg</filename>
+    <path>vinxstore_annotation-PascalVOC-export/Annotations/ItemMov1.mp4#t=0.733333.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1920</width>
+        <height>1080</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+    <name>NorinoHasamiyaki</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>1074.9317617866006</xmin>
+        <ymin>396.0227481617647</ymin>
+        <xmax>1263.4305210918117</xmax>
+        <ymax>690.5721507352941</ymax>
+    </bndbox>
+</object>
+</annotation>
